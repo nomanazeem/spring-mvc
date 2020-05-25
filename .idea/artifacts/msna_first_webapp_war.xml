@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="msna-first-webapp:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>msna-first-webapp</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="msna-first-webapp-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="msna-first-webapp:war exploded" />
+    </root>
+  </artifact>
+</component>
